@@ -6,22 +6,22 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Awesome Site Title
-email: your-email@domain.com
+title: Dylan's Blog
+email: dverrezen@gmail.com
 description: >
-  Awesome site description here
+        
 logo: "/assets/images/logo.jpg"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-paginate:	5 # The number of posts to show per page on your homepage
+url: "https://dylanv.github.io" # the base hostname & protocol for your site
+paginate: 1 # The number of posts to show per page on your homepage
 
-name: 'Your Name'
+name: 'Dylan Verrezen'
 bio: >
-  Mea suas vituperatoribus et, virtute corpora quaestio cum ut.
-  Ne solet nostrum complectitur pri, vis ut inani populo.
+        Machine learning practitioner in Cape Town, South Africa.
+        Currently working in healthcare.
 author_image: "/assets/images/author.jpg"
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: 
+github_username: dylanv
 
 # Google Analytics
 analytics_id: ""
