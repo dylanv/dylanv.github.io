@@ -10,7 +10,7 @@ title: Dylan's Blog
 email: dverrezen@gmail.com
 description: >
         
-logo: "/assets/images/logo.jpg"
+logo: "/assets/images/logo.png"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dylanv.github.io" # the base hostname & protocol for your site
 paginate: 1 # The number of posts to show per page on your homepage
