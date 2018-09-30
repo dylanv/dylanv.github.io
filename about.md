@@ -6,4 +6,4 @@ permalink: /about/
 
 <amp-img width="600" height="300" layout="responsive" src="/assets/images/Cape_Town.jpg"></amp-img>
 
-Machine learning practioner in Cape Town, South Africa.
+Machine learning practitioner in Cape Town, South Africa.
