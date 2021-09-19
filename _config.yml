@@ -28,9 +28,12 @@ analytics_id: ""
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 
 kramdown:
   parse_block_html: true
+  input: GFM
+  syntax_highlighter: rouge
 
 gems:
   - jekyll-paginate

@@ -67,6 +67,8 @@ DEPENDENCIES
   jekyll
   jekyll-compose
   jekyll-paginate
+  kramdown (~> 2.3)
+  rouge (~> 3.26)
 
 BUNDLED WITH
    2.1.4
