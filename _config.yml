@@ -1,0 +1,21 @@
+baseurl:
+title: Dylan's Blog
+subtitle: Machine learning, software, and a bit of everything
+author: Dylan Verrezen
+simple_search: http://google.com/search
+description: Machine learning, software, and a bit of everything
+name: dylan
+markdown: kramdown
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+permalink: /articles/:short_year/:title
+timezone: Africa/Johannesburg
+excerpt_separator: <!--more-->  # you can specify your own separator, of course.
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'README.md']
+post:
+  template: _post.txt
+  extension: md
+page:
+  template: _page.txt
+  extension: md
+git:
+  branch: master
