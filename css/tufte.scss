@@ -317,7 +317,9 @@ div.table-wrapper, table { overflow-x: auto; } //changed all overflow values to 
 
 pre { width: 52.5%; //, pre code, p pre code are both selectors in tufte.css - they have been removed here to fix alignment issues
            padding-left: 2.5%;
-           overflow-x: auto; }
+           overflow-x: auto;
+           border: 1px solid #efefef;
+           border-radius: 5px;}
 
 .fullwidth, li.listing div{ max-width: 90%; }
 
@@ -325,7 +327,7 @@ pre { width: 52.5%; //, pre code, p pre code are both selectors in tufte.css - t
 
 span.newthought { font-variant: small-caps;
                   font-size: 1.2em;
-                  letter-spacing: 0.05rem; }
+                  letter-spacing: 0.05rem;}
 
 input.margin-toggle { display: none; }
 
