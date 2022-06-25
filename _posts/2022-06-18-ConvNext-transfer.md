@@ -13,7 +13,7 @@ categories: ML
 {% newthought "Recently, Jeremy Howard" %} [tweeted](https://twitter.com/jeremyphoward/status/1537718111251468288) about some of his experiments with finding which image models are best for [training from scratch](https://www.kaggle.com/code/jhoward/which-image-models-are-best) and for [fine-tuning](https://www.kaggle.com/code/jhoward/the-best-vision-models-for-fine-tuning).
 A particular standout was the ConvNeXt model  {% sidenote "one" "Arxiv paper [here](https://arxiv.org/abs/2201.03545). It's pretty readable." %} which is a "modernised" resnet designed to be more similar to transformer models.
 
-This led to a reasonably efficient model that seems to work great an a wide variety of tasks. The [official repo](https://github.com/facebookresearch/ConvNeXt) is pretty helpful and it's built into [timm](https://github.com/rwightman/pytorch-image-models).
+This led to a reasonably efficient model that seems to work great on a wide variety of tasks. The [official repo](https://github.com/facebookresearch/ConvNeXt) is pretty helpful and it's built into [timm](https://github.com/rwightman/pytorch-image-models).
 
 {% maincolumn "assets/convnext/comparison.jpg" "Lol (from [Lucas Beyer on twitter](https://twitter.com/giffmana/status/1538617065048788997)" %}
 
