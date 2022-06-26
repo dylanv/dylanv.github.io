@@ -11,6 +11,7 @@ permalink: /articles/:short_year/:title
 timezone: Africa/Johannesburg
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'README.md']
+plugins: ['jekyll-twitter-plugin']
 post:
   template: _post.txt
   extension: md
