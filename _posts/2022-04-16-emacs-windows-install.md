@@ -4,8 +4,8 @@ title:  "A 2022 Guide to Installing Emacs on Windows"
 date:   2022-04-16 16:00:00
 categories: emacs
 ---
-
-{% newthought "I have spent" %} the last few years running Linux, but I got tired of fighting Nvidia drivers and weird GUI bugs. So I've made the switch to Windows 11{% sidenote "one" "An encrypted disk issue ended in me losing my entire drive and rage installing windows. Also, now I can play Elden Ring."%} which has let me try out some new, different, and exciting GUI bugs and Nvidia fights.<!--more-->
+<!--more-->
+{% newthought "I have spent" %} the last few years running Linux, but I got tired of fighting Nvidia drivers and weird GUI bugs. So I've made the switch to Windows 11{% sidenote "one" "An encrypted disk issue ended in me losing my entire drive and rage installing windows. Also, now I can play Elden Ring."%} which has let me try out some new, different, and exciting GUI bugs and Nvidia fights.
 
 ## WSL
 

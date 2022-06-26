@@ -6,9 +6,7 @@ categories: ML
 ---
 
 {% epigraph "A fun property of machine learning is that this reasoning works in reverse too: If meaningful generalities can help you represent your data with fewer numbers, finding a way to represent your data in fewer numbers can often help you find meaningful generalities. Compression is akin to understanding and all that." "Simon Funk" "Netflix Update: Try This at Home" %}
-
 <!--more-->
-
 # CLIP
 [CLIP](https://openai.com/blog/clip/) is a semi-recent {% sidenote "one" "It's from Jan 2021 so ancient in DL terms" %} model from OpenAI that claims to be really good at zero-shot learning across a wide variety of tasks.
 
