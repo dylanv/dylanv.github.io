@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Getting Started</title>
+  <meta name="description" content="">
+
+  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+  
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+  
+  
+<!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: [
+      "MathMenu.js",
+      "MathZoom.js",
+      "AssistiveMML.js",
+      "a11y/accessibility-menu.js"
+    ],
+    jax: ["input/TeX", "output/CommonHTML"],
+    TeX: {
+      extensions: [
+        "AMSmath.js",
+        "AMSsymbols.js",
+        "noErrors.js",
+        "noUndefined.js",
+      ]
+    }
+  });
+</script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>  
+
+
+  <link rel="stylesheet" type="text/css" href="dylanv.github.io/css/tufte.css">
+  <!-- <link rel="stylesheet" type="text/css" href="dylanv.github.io/css/print.css" media="print"> -->
+
+  <link rel="canonical" href="dylanv.github.io/articles/22/about-the-blog">
+
+  <link rel="alternate" type="application/rss+xml" title="Dylan's Blog" href="dylanv.github.io/feed.xml" />
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧙</text></svg>">
+</head>
+
+  <body>
+    <!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+	<a href="dylanv.github.io/"><img class="badge" src="dylanv.github.io/assets/img/badge.png" alt="CH"></a>
+	
+		
+  	
+		
+		    
+		      <a href="dylanv.github.io/">posts</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="dylanv.github.io/about/">About</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="dylanv.github.io/css/print.css"></a>
+		    
+	    
+  	
+		
+  	
+	</nav>
+</header>
+    <article class="group">
+      <h1>Getting Started</h1>
+<p class="subtitle">April 3, 2022</p>
+
+<!--more-->
+<div class="epigraph"><blockquote><p>Writing about something, even something you know well, usually shows you that you didn’t know it as well as you thought. Putting ideas into words is a severe test. The first words you choose are usually wrong; you have to rewrite sentences over and over to get them exactly right. And your ideas won’t just be imprecise, but incomplete too. Half the ideas that end up in an essay will be ones you thought of while you were writing it. Indeed, that’s why I write them.</p><footer>Paul Graham, <cite> "Putting Ideas into Words" </cite></footer></blockquote></div>
+<p><span class="newthought">This is not my first attempt</span>  at blogging, I have a bad habit of setting these up and then nuking them after a while because I’m not happy with the look and feel (my graphic design skills leave a lot to be desired). Which is a pity, I think expressing yourself is a genuinely useful skill and they only way to get better at anything is to practice. However,  due to my natural engineer aversion to writing, I have let this languish.</p>
+
+<p>This time I’ve decided to put the effort in and get a setup I actually like <label for="one" class="margin-toggle sidenote-number"></label><input type="checkbox" id="one" class="margin-toggle" /><span class="sidenote">Sidenotes!!! </span> (more on this in a moment). I’m fairly happy with the current look and feel it’s got all the bells and whistles like pretentious epigraphs and my beloved sidenotes. <label for="one" class="margin-toggle"> ⊕</label><input type="checkbox" id="one" class="margin-toggle" /><span class="marginnote">Fighting the urge to change things to use a <a href="https://en.wikipedia.org/wiki/Historiated_initial">historiated initial</a> at the start of every post, like this is an illuminated manuscript and not a blog. </span>There isn’t actually much that’s missing, but I’m sure I’ll find someway to tinker.</p>
+
+<h2 id="nuts-and-bolts">Nuts and Bolts</h2>
+
+<p><span class="newthought">The theme</span>  is based on <a href="https://github.com/clayh53/tufte-jekyll">clayh53/tufte-jekyll</a> which is itself based on Edward Tufte’s <a href="https://github.com/edwardtufte/tufte-css">tufte-css</a>. It has some great liquid tags for setting up side/margin notes, epigraphs, and various other stylish and useful bits and pieces already built in.</p>
+
+<p>I did make some changes, most obvious is the colours. I’ve always loved the Financial Times colour scheme <label for="two" class="margin-toggle sidenote-number"></label><input type="checkbox" id="two" class="margin-toggle" /><span class="sidenote">The actual physical newspaper was also <a href="https://qz.com/462285/why-the-financial-times-is-pink/">pink</a> for interesting reasons. </span> and decided to use it here as well. Besides, how often do you get the chance to use a pink background?</p>
+
+<p><span class="newthought">Installation</span>  was relatively straightforward. I just followed the official Github Pages getting started guide and poked around a bit in the Jekyll docs. Once you’re relatively on top of what Jekyll is all about download/clone/whatever the <a href="https://github.com/clayh53/tufte-jekyll">theme</a> and move all the files into your repo.  You’ll have to change the configs (pay attention to your base url especially) to match your site and do any style/template changes, and you should be off to the races. If you do change your background make sure you look at the code style background as well.</p>
+
+<p>I did have to delete the <code class="language-plaintext highlighter-rouge">Gemfile.lock</code> <label for="three" class="margin-toggle sidenote-number"></label><input type="checkbox" id="three" class="margin-toggle" /><span class="sidenote">This may have been a Windows problem (it normally is). </span> and add some gems to get things working correctly. You can then use <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve -w</code> to run and test locally.</p>
+
+<h3 id="gotchas">Gotchas</h3>
+<p><span class="newthought">The aforementioned</span>  gemfile issue was solved by modifying it to:</p>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">source</span> <span class="s1">'https://rubygems.org'</span>
+
+<span class="n">gem</span> <span class="s1">'jekyll'</span>
+<span class="n">gem</span> <span class="s1">'rouge'</span>
+<span class="n">gem</span> <span class="s2">"webrick"</span><span class="p">,</span> <span class="s2">"~&gt; 1.7"</span>
+<span class="c1"># Windows needs tzinfo for some reason</span>
+<span class="n">gem</span> <span class="s2">"tzinfo"</span><span class="p">,</span> <span class="s2">"~&gt; 2.0"</span>
+<span class="n">gem</span> <span class="s2">"tzinfo-data"</span><span class="p">,</span> <span class="s2">"~&gt; 1.2022"</span>
+<span class="c1"># jekyll serve asked for this</span>
+<span class="n">gem</span> <span class="s1">'wdm'</span><span class="p">,</span> <span class="s1">'&gt;= 0.1.0'</span> <span class="k">if</span> <span class="no">Gem</span><span class="p">.</span><span class="nf">win_platform?</span>
+</code></pre></div></div>
+<p>and then deleting the lock file and re-running <code class="language-plaintext highlighter-rouge">bundle install</code>.</p>
+
+<p><span class="newthought">Deploying</span>  is also a bit tricky because Github Pages doesn’t support the Liquid tags and plugins. To get around this create a new empty branch <code class="language-plaintext highlighter-rouge">gh-pages</code> and move the <code class="language-plaintext highlighter-rouge">_site</code> folder there and commit when you want to deploy. There is a <code class="language-plaintext highlighter-rouge">rake</code> file included with the theme that will do this for you, but it is a bit dangerous.</p>
+
+<p><span class="newthought">Otherwise</span>  check out the list of <a href="https://clayh53.github.io/tufte-jekyll/articles/20/Edge-Cases">edge cases</a> and pay special attention to the quote marks you use in the liquid tags.</p>
+
+
+
+    </article>
+    <span class="print-footer">Getting Started - April 3, 2022 - Dylan Verrezen</span>
+    <footer>
+  <hr class="slender">
+  <!-- <ul class="footer-links">
+    <li><a href="mailto:hate@spam.net"><span class="icon-mail3"></span></a></li>    
+      
+  </ul> -->
+<div class="credits">
+<span>&copy; 2022 &nbsp;&nbsp;DYLAN VERREZEN</span></br> <br>
+<!-- <span>This site created with the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme for Machine learning, software, and a bit of everything </a> in <a href="//jekyllrb.com">Jekyll</a>.</span>  -->
+</div>  
+</footer>
+  </body>
+</html>

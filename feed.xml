@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dylan&apos;s Blog</title>
+    <description>Machine learning, software, and a bit of everything</description>
+    <link>dylanv.github.io/</link>
+    <atom:link href="dylanv.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 03 Jul 2022 16:07:23 +0000</pubDate>
+    <lastBuildDate>Sun, 03 Jul 2022 16:07:23 +0000</lastBuildDate>
+    <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Week 25 Digest - Poet Engineer Edition</title>
+        <description>&lt;!--more--&gt;
+
+&lt;h2 id=&quot;were-all-poet-engineers-now&quot;&gt;We’re All Poet Engineers Now&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://return.life/2022/06/29/the-mirror-of-language/&quot;&gt;The Mirror of Language | Max Anton Brewer&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Sci-Fi Author: In my book I invented the Poet Engineer as a cautionary tale&lt;br /&gt;&lt;br /&gt;Tech Company: At long last, we have created the Poet Engineer from classic sci-fi novel Don&amp;#39;t Create The Poet Engineer&lt;/p&gt;&amp;mdash; tech wiz (@deepfates) &lt;a href=&quot;https://twitter.com/deepfates/status/1542174353499901952?ref_src=twsrc%5Etfw&quot;&gt;June 29, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;yolov6-object-detection-is-released&quot;&gt;YoloV6: Object Detection is Released&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/meituan/YOLOv6&quot;&gt;GitHub - meituan/YOLOv6: YOLOv6: a single-stage object detection framework&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Not related to the original YOLO creator
+&lt;label for=&quot;two&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;two&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Not only did he create YOLO but also the best &lt;a href=&quot;https://pjreddie.com/static/Redmon%20Resume.pdf&quot;&gt;tech resume&lt;/a&gt; perhaps ever &lt;/span&gt;
+&lt;a href=&quot;https://github.com/meituan/YOLOv6/blob/main/docs/About_naming_yolov6.md&quot;&gt;YOLOv6/About naming_yolov6&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Who quit the field:&lt;/p&gt;
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;I stopped doing CV research because I saw the impact my work was having. I loved the work but the military applications and privacy concerns eventually became impossible to ignore.&lt;a href=&quot;https://t.co/DMa6evaQZr&quot;&gt;https://t.co/DMa6evaQZr&lt;/a&gt;&lt;/p&gt;&amp;mdash; Joseph Redmon (@pjreddie) &lt;a href=&quot;https://twitter.com/pjreddie/status/1230524770350817280?ref_src=twsrc%5Etfw&quot;&gt;February 20, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;p&gt;And is now a circus performer&lt;/p&gt;
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;The show is gonna be awesome, there’s a live band (Hot Damn Scandal) performing alongside some great acts. My friend Amy and I are performing on Spanish web, it’ll look like this but with like costumes and music and stuff 🙃 &lt;a href=&quot;https://t.co/w4mgdneugW&quot;&gt;pic.twitter.com/w4mgdneugW&lt;/a&gt;&lt;/p&gt;&amp;mdash; Joseph Redmon (@pjreddie) &lt;a href=&quot;https://twitter.com/pjreddie/status/1504181975883472897?ref_src=twsrc%5Etfw&quot;&gt;March 16, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;michael-nielsen-discusses-a-recent-ai-interpretability-paper&quot;&gt;Michael Nielsen Discusses a Recent AI Interpretability Paper&lt;/h2&gt;
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;I&amp;#39;m enjoying reading the recent paper by &lt;a href=&quot;https://twitter.com/nelhage?ref_src=twsrc%5Etfw&quot;&gt;@nelhage&lt;/a&gt;  &lt;a href=&quot;https://twitter.com/trishume?ref_src=twsrc%5Etfw&quot;&gt;@trishume&lt;/a&gt; &lt;a href=&quot;https://twitter.com/catherineols?ref_src=twsrc%5Etfw&quot;&gt;@catherineols&lt;/a&gt; &lt;a href=&quot;https://twitter.com/ch402?ref_src=twsrc%5Etfw&quot;&gt;@ch402&lt;/a&gt; (and many others) on AI interpretability: &lt;a href=&quot;https://t.co/BylMHpWjoL&quot;&gt;https://t.co/BylMHpWjoL&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;For fun, a few thoughts from a non-expert outsider, just as I read&lt;/p&gt;&amp;mdash; Michael (hermit mode) (@michael_nielsen) &lt;a href=&quot;https://twitter.com/michael_nielsen/status/1541848372847337473?ref_src=twsrc%5Etfw&quot;&gt;June 28, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href=&quot;https://transformer-circuits.pub/2022/solu/index.html&quot;&gt;Softmax Linear Units&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;a-cool-climate-dataset&quot;&gt;A Cool Climate Dataset&lt;/h2&gt;
+
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Today we’re releasing a new collection of global downscaled climate datasets to support impact and risk analysis. (1/9)&lt;a href=&quot;https://t.co/xEJ8qwOprg&quot;&gt;https://t.co/xEJ8qwOprg&lt;/a&gt; &lt;a href=&quot;https://t.co/qw4DBh7ISQ&quot;&gt;pic.twitter.com/qw4DBh7ISQ&lt;/a&gt;&lt;/p&gt;&amp;mdash; carbonplan (@carbonplanorg) &lt;a href=&quot;https://twitter.com/carbonplanorg/status/1542927765774557184?ref_src=twsrc%5Etfw&quot;&gt;July 1, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://carbonplan.org/research/cmip6-downscaling-explainer&quot;&gt;Open data and tools for multiple methods of global climate downscaling&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/carbonplan/cmip6-downscaling&quot;&gt;GitHub - carbonplan/cmip6-downscaling: Climate downscaling using CMIP6 data&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/carbonplan/cmip6-downscaling/blob/main/notebooks/accessing_data_example.ipynb&quot;&gt;Example notebook&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;another-one&quot;&gt;Another one&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=31986503&quot;&gt;Historical weather data API for machine learning, free for non-commercial&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;ourworldindatas-conditional-life-expectancy-chart&quot;&gt;OurWorldInData’s Conditional Life Expectancy Chart&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ourworldindata.org/uploads/2013/05/Life-expectancy-by-age-in-the-UK-1700-to-2013.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;ditch-the-average&quot;&gt;Ditch the Average&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://mannhowie.com/average-pitfall&quot;&gt;How the US Air Force Ditched the “Average” and Saved Lives&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;google-ai-releases-minerva&quot;&gt;Google AI releases Minerva&lt;/h2&gt;
+
+&lt;p&gt;Title somehow sounds very ominous, but it’s just an AI that can solve reasoning problems &lt;label for=&quot;one&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;one&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Not foreboding at all! &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ai.googleblog.com/2022/06/minerva-solving-quantitative-reasoning.html&quot;&gt;Google AI Blog: Minerva: Solving Quantitative Reasoning Problems with Language&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;neural-radiance-fields&quot;&gt;Neural Radiance Fields&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.matthewtancik.com/nerf&quot;&gt;NeRF: Neural Radiance Fields&lt;/a&gt; let you go from 2d to 3d with neural nets.&lt;/p&gt;
+
+&lt;p&gt;Now you can do style transfer: &lt;a href=&quot;https://www.cs.cornell.edu/projects/arf/&quot;&gt;ARF: Artistic Radiance Fields&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Check some cool videos:
+&lt;a href=&quot;https://www.youtube.com/watch?v=vppnmLCrjVU&quot;&gt;Capturing Reality With Machine Learning - NeRF 3D Scan Compilation - YouTube&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And this twitter user:&lt;/p&gt;
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;1/ We used NeRF to get this shot. This entire thing was shot with a phone 🤳 No drones were used &lt;a href=&quot;https://twitter.com/jperldev?ref_src=twsrc%5Etfw&quot;&gt;@jperldev&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/photogrammetry?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#photogrammetry&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/instantNeRF?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#instantNeRF&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/neuralrendering?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#neuralrendering&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/artificialintelligence?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#artificialintelligence&lt;/a&gt; &lt;a href=&quot;https://t.co/abnV8ICjxa&quot;&gt;pic.twitter.com/abnV8ICjxa&lt;/a&gt;&lt;/p&gt;&amp;mdash; Karen X. Cheng (@karenxcheng) &lt;a href=&quot;https://twitter.com/karenxcheng/status/1544718308535980032?ref_src=twsrc%5Etfw&quot;&gt;July 6, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;ai-solves-stratego&quot;&gt;AI Solves Stratego&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://arxiv.org/abs/2206.15378&quot;&gt;{2206.15378} Mastering the Game of Stratego with Model-Free Multiagent Reinforecement Learning&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;better-scaling-for-neural-networks&quot;&gt;Better Scaling for Neural Networks&lt;/h2&gt;
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;1/Is scale all you need for AGI?(unlikely).But our new paper &amp;quot;Beyond neural scaling laws:beating power law scaling via data pruning&amp;quot; shows how to achieve much superior exponential decay of error with dataset size rather than slow power law neural scaling &lt;a href=&quot;https://t.co/Vn62UJXGTd&quot;&gt;https://t.co/Vn62UJXGTd&lt;/a&gt; &lt;a href=&quot;https://t.co/vVt4xDBcr7&quot;&gt;pic.twitter.com/vVt4xDBcr7&lt;/a&gt;&lt;/p&gt;&amp;mdash; Surya Ganguli (@SuryaGanguli) &lt;a href=&quot;https://twitter.com/SuryaGanguli/status/1542599453659451392?ref_src=twsrc%5Etfw&quot;&gt;June 30, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href=&quot;https://arxiv.org/abs/2206.14486&quot;&gt;{2206.14486} Beyond neural scaling laws: beating power law scaling via data pruning&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;But don’t forget:&lt;/p&gt;
+
+&lt;h2 id=&quot;small-models-are-good-actually&quot;&gt;Small Models are Good Actually&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.johndcook.com/blog/2011/05/25/crude-models/&quot;&gt;Advantages of crude models&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;what-your-cell-organelles-are-up-to&quot;&gt;What Your Cell Organelles Are Up To&lt;/h2&gt;
+
+&lt;p&gt;&lt;label for=&quot;one&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;one&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;No good, I’m sure. &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;This animation of cell organelles by Drew Berry and Etsuko Uno shows how the human cells work incessantly round-the-clock [full video, HD: &lt;a href=&quot;https://t.co/hSxy4uV5Hi&quot;&gt;https://t.co/hSxy4uV5Hi&lt;/a&gt;] &lt;a href=&quot;https://t.co/Qdzp6LmCnj&quot;&gt;pic.twitter.com/Qdzp6LmCnj&lt;/a&gt;&lt;/p&gt;&amp;mdash; Massimo (@Rainmaker1973) &lt;a href=&quot;https://twitter.com/Rainmaker1973/status/1542582412315615239?ref_src=twsrc%5Etfw&quot;&gt;June 30, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sun, 03 Jul 2022 16:00:00 +0000</pubDate>
+        <link>dylanv.github.io/articles/22/digset</link>
+        <guid isPermaLink="true">dylanv.github.io/articles/22/digset</guid>
+        
+        
+        <category>digest</category>
+        
+      </item>
+    
+      <item>
+        <title>Week 25 Digest - Pixel Art Edition</title>
+        <description>&lt;!--more--&gt;
+
+&lt;figure&gt;&lt;img src=&quot;dylanv.github.io/assets/digest/pixray-ct1.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;pixray draws a Cape Town sunset&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;how-attention-works-in-transformers&quot;&gt;How attention works in transformers&lt;/h2&gt;
+
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;(in case you never realized) &lt;a href=&quot;https://t.co/XvNtUwTOFP&quot;&gt;pic.twitter.com/XvNtUwTOFP&lt;/a&gt;&lt;/p&gt;&amp;mdash; François Fleuret (@francoisfleuret) &lt;a href=&quot;https://twitter.com/francoisfleuret/status/1539622884766896128?ref_src=twsrc%5Etfw&quot;&gt;June 22, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;pixray-generate-ai-pixel-art&quot;&gt;&lt;a href=&quot;https://github.com/pixray/pixray&quot;&gt;pixray: Generate AI pixel art&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Easy enought to get running locally if you’re bored of Dalle-mini already. I tried a few Cape Town related prompts and
+it did okay.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;dylanv.github.io/assets/digest/pixray-ct2.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;pixray draws Cape Town&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;meta-releases-new-large-language-model&quot;&gt;Meta releases new large language model&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://arxiv.org/abs/2205.01068&quot;&gt;{2205.01068} OPT: Open Pre-trained Transformer Language Models&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/facebookresearch/metaseq&quot;&gt;GitHub - facebookresearch/metaseq: Repo for external large-scale work&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Also has the training lab notebooks/logs which are always cool.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-de-detailing-of-the-world&quot;&gt;The de-detailing of the world&lt;/h2&gt;
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;The Danger of Minimalist Design&lt;br /&gt;&lt;br /&gt;(&amp;amp; the death of detail)&lt;br /&gt;&lt;br /&gt;A short thread... &lt;a href=&quot;https://t.co/byrgyZzl6O&quot;&gt;pic.twitter.com/byrgyZzl6O&lt;/a&gt;&lt;/p&gt;&amp;mdash; The Cultural Tutor (@culturaltutor) &lt;a href=&quot;https://twitter.com/culturaltutor/status/1538211892707086338?ref_src=twsrc%5Etfw&quot;&gt;June 18, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;gpt-writes-trump-tweets-about-greek-mytholical-characters&quot;&gt;GPT writes Trump tweets about Greek mytholical characters&lt;/h2&gt;
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;God this is such a good prompt &lt;a href=&quot;https://t.co/lhVpNtU4BG&quot;&gt;pic.twitter.com/lhVpNtU4BG&lt;/a&gt;&lt;/p&gt;&amp;mdash; 🅁🅈🄰🄽 (@BoyNamedShit) &lt;a href=&quot;https://twitter.com/BoyNamedShit/status/1538732931228635137?ref_src=twsrc%5Etfw&quot;&gt;June 20, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;relationships-between-distributions&quot;&gt;Relationships between distributions&lt;/h2&gt;
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;this was my multiverse of madness &lt;a href=&quot;https://t.co/d7bDFWC0G5&quot;&gt;pic.twitter.com/d7bDFWC0G5&lt;/a&gt;&lt;/p&gt;&amp;mdash; 🔥🔥Kareem Carr 🔥🔥 (@kareem_carr) &lt;a href=&quot;https://twitter.com/kareem_carr/status/1538899820253007872?ref_src=twsrc%5Etfw&quot;&gt;June 20, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;use-convnext-not-imagenet-for-finetuning&quot;&gt;Use ConvNext not Imagenet for finetuning&lt;/h2&gt;
+&lt;p&gt;Jeremy Howard investigates some modern models for finetuning:
+&lt;a href=&quot;https://www.kaggle.com/code/jhoward/the-best-vision-models-for-fine-tuning&quot;&gt;The best vision models for fine-tuning | Kaggle&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Paper: &lt;a href=&quot;https://arxiv.org/abs/2201.03545&quot;&gt;{2201.03545} A ConvNet for the 2020s&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;how-air-filters-actually-work&quot;&gt;How air filters actually work&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://dynomight.net/ikea-purifier/&quot;&gt;Contra Wirecutter on the IKEA air purifier&lt;/a&gt;
+Turns out they block really small and really large particles equally well with a not great bit inbetween.&lt;/p&gt;
+
+&lt;h2 id=&quot;getting-to-gnome-mode---by-venkatesh-rao&quot;&gt;&lt;a href=&quot;https://studio.ribbonfarm.com/p/getting-to-gnome-mode&quot;&gt;Getting to Gnome Mode - by Venkatesh Rao&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h2 id=&quot;use-cumulative-logit-models-for-linkert-scale-data&quot;&gt;&lt;a href=&quot;https://www.reddit.com/r/statistics/comments/vf44pr/q_poisson_regression/&quot;&gt;Use Cumulative Logit models for linkert scale data&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;If you’ve ever wondered how to model survey responses (classic 1-5 scale for example)&lt;/p&gt;
+
+&lt;p&gt;Available as &lt;a href=&quot;https://www.statsmodels.org/devel/examples/notebooks/generated/ordinal_regression.html&quot;&gt;ordinal regression&lt;/a&gt; in statsmodels.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 26 Jun 2022 16:00:00 +0000</pubDate>
+        <link>dylanv.github.io/articles/22/digest</link>
+        <guid isPermaLink="true">dylanv.github.io/articles/22/digest</guid>
+        
+        
+        <category>digest</category>
+        
+      </item>
+    
+      <item>
+        <title>Zero shot learning with CLIP</title>
+        <description>&lt;div class=&quot;epigraph&quot;&gt;&lt;blockquote&gt;&lt;p&gt;A fun property of machine learning is that this reasoning works in reverse too: If meaningful generalities can help you represent your data with fewer numbers, finding a way to represent your data in fewer numbers can often help you find meaningful generalities. Compression is akin to understanding and all that.&lt;/p&gt;&lt;footer&gt;Simon Funk, &lt;cite&gt;Netflix Update: Try This at Home&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;&lt;/div&gt;
+&lt;!--more--&gt;
+&lt;h1 id=&quot;clip&quot;&gt;CLIP&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://openai.com/blog/clip/&quot;&gt;CLIP&lt;/a&gt; is a semi-recent &lt;label for=&quot;one&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;one&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;It’s from Jan 2021 so ancient in DL terms &lt;/span&gt; model from OpenAI that claims to be really good at zero-shot learning across a wide variety of tasks.&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;dylanv.github.io/assets/clip-zero-shot/CLIP-struct_emb.png&quot; /&gt;&lt;br /&gt;CLIP at training time.&lt;/span&gt;
+At a high level clip takes in an image and a text prompt and it spits out a similarity between the two. Under the hood it consists of an Image and Text Encoder and it has been trained to essentially learn the embedding such that the dot product of the image and text embedding is the similarity.&lt;/p&gt;
+
+&lt;p&gt;The nice thing for us is we don’t have to think about what kind of transformer is used for what encoding.
+We can essentially treat CLIP as a black box: given an image and text give us a similarity. 
+Or, alternatively give us the embeddings and let us do as we please.&lt;/p&gt;
+
+&lt;p&gt;I recently tried out CLIP on some data I can’t show you and I was surprised at how well it did on images that are bound to be very rare on the internet.&lt;/p&gt;
+
+&lt;p&gt;So, let’s see how CLIP does.&lt;/p&gt;
+
+&lt;h1 id=&quot;yoga-pose-dataset&quot;&gt;Yoga Pose Dataset&lt;/h1&gt;
+&lt;p&gt;I wanted to keep things interesting, so I went to the internet’s premier source of weird and wonderful datasets: Kaggle. 
+This &lt;a href=&quot;https://www.kaggle.com/datasets/ujjwalchowdhury/yoga-pose-classification&quot;&gt;yoga poses dataset&lt;/a&gt; 
+consists of 5 poses with a few hundred images each.&lt;/p&gt;
+
+&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;dylanv.github.io/assets/clip-zero-shot/output_5_0.png&quot; /&gt;&lt;figcaption&gt;A good variety of of image types very clearly just scraped from the web somewhere.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;To start, I tried three different prompt styles: first just the class names with “yoga pose” appended,
+second I cleaned up the class names so that warrior2 become warrior two, and third I google the proper Sanskrit Yoga names and used those.&lt;/p&gt;
+&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;dylanv.github.io/assets/clip-zero-shot/output_7_1.png&quot; /&gt;&lt;figcaption&gt;Not great. It&amp;#8217;s better than random but not super usable.&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;CLIP does OK on some poses &lt;label for=&quot;two&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;two&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Amusingly, does fine with warrior2 even though I was worried the class name was not great. &lt;/span&gt; but overall this wasn’t the best first showing. Now, we can jump into so good old-fashioned (hah) prompt engineering but there is one thing to consider first.&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;dylanv.github.io/assets/clip-zero-shot/CLIP-struct_test.png&quot; /&gt;&lt;br /&gt;Note how the test time prompts are constructed.&lt;/span&gt;
+In the
+&lt;a href=&quot;ttps://cdn.openai.com/papers/Learning_Transferable_Visual_Models_From_Natural_Language_Supervision.pdf&quot;&gt;paper&lt;/a&gt;
+OpenAI note that at test time they constructed prompts in the form “a photo of {object}”.
+I was curious if maybe the model had learned this prompt style implicitly so I adapted my three prompt styles and re-ran the images though.&lt;/p&gt;
+
+&lt;p&gt;Doing so improved the results a fair amount and the errors are not completely unreasonable. For the most part it seems to do alright, just confuses the standing poses like warrior two, tree and goddess. To be fair to CLIP I would do terribly at classifying yoga poses (especially if you gave be like 20ms per image)&lt;/p&gt;
+
+&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;dylanv.github.io/assets/clip-zero-shot/output_9_1.png&quot; /&gt;&lt;figcaption&gt;This is better. Still not perfect but definitely closer to what I would expect.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;It is interesting to note, that despite being trained not to be, CLIP is still pretty sensitive to the prompts 
+&lt;label for=&quot;three&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;three&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Quick, add prompt engineering to your LinkedIn now to get a head start on the five years of prompt engineering experience required train. &lt;/span&gt;
+. I’m curious if there’s a quicker way to dial this in though. Something like style transfer where you try optimise your inputs to maximise the score? I’m not sure transformers like that kind of thing but it could be fun to try.&lt;/p&gt;
+
+&lt;h1 id=&quot;something-easier&quot;&gt;Something easier&lt;/h1&gt;
+&lt;p&gt;OK, fine, let’s try a softball.
+This 
+&lt;a href=&quot;https://www.kaggle.com/datasets/puneet6060/intel-image-classification&quot;&gt;scene dataset&lt;/a&gt;
+is the kind of easy-peasy DL problem that you could probably train something from scratch in an afternoon for. 
+But, the whole point of zero-shot is that we don’t have to do any work at all.&lt;/p&gt;
+&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;dylanv.github.io/assets/clip-zero-shot/output_12_0.png&quot; /&gt;&lt;figcaption&gt;It&amp;#8217;s the exact kind of thing you&amp;#8217;d expect CLIP to have seen a ton of.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;For this one I also went with 3 different prompt sets: first up just class names, second a photo of classname, and third a photo of classname landscape.&lt;/p&gt;
+
+&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;dylanv.github.io/assets/clip-zero-shot/output_14_1.png&quot; /&gt;&lt;figcaption&gt;Too easy. Although, I&amp;#8217;d have been disappointing if it did poorly.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;It is interesting that the “a photo of” prompts are better.
+It really does seem like CLIP has some dependence there.
+Otherwise, things look good. 
+If we look at the misclassifications, I’m mostly on CLIP’s side here.&lt;/p&gt;
+
+&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;dylanv.github.io/assets/clip-zero-shot/output_16_0.png&quot; /&gt;&lt;figcaption&gt;File this under paranoia about dataset quality.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;It is pretty cool that you can get 90+ accuracy in a task having done precisely zero work.&lt;/p&gt;
+
+&lt;h1 id=&quot;verifying-the-banana-claims&quot;&gt;Verifying the banana claims&lt;/h1&gt;
+
+&lt;p&gt;Lastly, I had a look at this &lt;a href=&quot;https://www.kaggle.com/datasets/moltean/fruits&quot;&gt;fruits dataset&lt;/a&gt;,
+it looks like undergrad project or something but the OpenAI blog post does make some banana related claims.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;dylanv.github.io/assets/clip-zero-shot/CLIP-banana.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;We&amp;#8217;ll see about this&amp;#8230;&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Also this is something I could see popping up, where you get a small collection of product/industrial images and need to bang out a quick classifier.&lt;/p&gt;
+
+&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;dylanv.github.io/assets/clip-zero-shot/output_19_0.png&quot; /&gt;&lt;figcaption&gt;A nice collection of indeterminate coloured circles. How well would you do?&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Some of these are pretty tricky, I’m not sure how well I would do, stuff like apple hit vs apple rotten is maybe a bit unfair. 
+Also that pear is pretty rotten as well. Anyway,&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;dylanv.github.io/assets/clip-zero-shot/output_21_0.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Ignore the top-left apple corner of shame. Also pretty sure &amp;#8216;delicios&amp;#8217; is spelt wrong there. Don&amp;#8217;t pretend you&amp;#8217;ve never had to deal with data like this.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Yeah, that’s not too bad all things considered. Complete chaos in the apple quadrant and some cucumber/zucchini, golden apple/pear mixups but that’s not unreasonable.&lt;/p&gt;
+
+&lt;p&gt;It was at this point I realised I had left the prompts as “a photo of classname” which meant this was with the “apple_braeburn” style class names with the underscores still.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;dylanv.github.io/assets/clip-zero-shot/output_21_1.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Yeah, I dunno. Why&amp;#8217;s it worse with better prompts?&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Fixing that somehow that made things worse though, so buyer beware.&lt;/p&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;Depending on your dataset you could probably get a ton of mileage out of CLIP in a zero-shot setting. 
+But I feel like a lot of the time transfer learning a resnet &lt;label for=&quot;four&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;four&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Or convnext! &lt;/span&gt; is gonna get you further. I’m still super impressed though and it’s crazy that you can get 90+ accuracy on tasks the model has never seen while still being able to do all these other tasks.&lt;/p&gt;
+
+&lt;p&gt;This has just given me a ton of ideas so we’ll probably revisit this soon.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 24 Jun 2022 16:00:00 +0000</pubDate>
+        <link>dylanv.github.io/articles/22/CLIP-zero-shot</link>
+        <guid isPermaLink="true">dylanv.github.io/articles/22/CLIP-zero-shot</guid>
+        
+        
+        <category>ML</category>
+        
+      </item>
+    
+      <item>
+        <title>Transfer Learning with ConvNext, HuggingFace, and Ignite</title>
+        <description>&lt;div class=&quot;epigraph&quot;&gt;&lt;blockquote&gt;&lt;p&gt;The outcome of this exploration is a family of pure ConvNet models dubbed ConvNeXt. Constructed entirely from standard ConvNet modules, ConvNeXts compete favorably with Transformers in terms of accuracy and scalability, achieving 87.8% ImageNet top-1 accuracy and outperforming Swin Transformers on COCO detection and ADE20K segmentation, while maintaining the simplicity and efficiency of standard ConvNets.&lt;/p&gt;&lt;footer&gt;Zhuang Liu et al., &lt;cite&gt;A ConvNet for the 2020s&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;TLDR:&lt;/span&gt;  I put together a quick-n-dirty example (&lt;a href=&quot;https://gist.github.com/dylanv/9b98410ec9cf41f61c4d1ad6baee8822&quot;&gt;Github gist here&lt;/a&gt;) if you don’t feel like reading.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Recently, Jeremy Howard&lt;/span&gt;  &lt;a href=&quot;https://twitter.com/jeremyphoward/status/1537718111251468288&quot;&gt;tweeted&lt;/a&gt; about some of his experiments with finding which image models are best for &lt;a href=&quot;https://www.kaggle.com/code/jhoward/which-image-models-are-best&quot;&gt;training from scratch&lt;/a&gt; and for &lt;a href=&quot;https://www.kaggle.com/code/jhoward/the-best-vision-models-for-fine-tuning&quot;&gt;fine-tuning&lt;/a&gt;.
+A particular standout was the ConvNeXt model  &lt;label for=&quot;one&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;one&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Arxiv paper &lt;a href=&quot;https://arxiv.org/abs/2201.03545&quot;&gt;here&lt;/a&gt;. It’s pretty readable. &lt;/span&gt; which is a “modernised” resnet designed to be more similar to transformer models.&lt;/p&gt;
+
+&lt;p&gt;This led to a reasonably efficient model that seems to work great on a wide variety of tasks. The &lt;a href=&quot;https://github.com/facebookresearch/ConvNeXt&quot;&gt;official repo&lt;/a&gt; is pretty helpful and it’s built into &lt;a href=&quot;https://github.com/rwightman/pytorch-image-models&quot;&gt;timm&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;dylanv.github.io/assets/convnext/comparison.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Lol (from &lt;a href=&quot;https://twitter.com/giffmana/status/1538617065048788997&quot;&gt;Lucas Beyer on twitter&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Lately I’ve been spending&lt;/span&gt;  way too much time messing around with models from &lt;a href=&quot;https://huggingface.co/&quot;&gt;Hugging Face&lt;/a&gt;.
+I’ve always been a big transfer learning fan, get great results quickly with less compute seems like a no-brainer. 
+So I thought this is a good excuse to see how hard it is to get into the inner workings of HuggingFace models 
+&lt;label for=&quot;two&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;two&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;It’s probably more sensible to use timm but HF also comes with some very useful bells and whistles &lt;/span&gt;
+and to see if my beloved resnets have been finally replaced.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;I decided&lt;/span&gt;  to go with the &lt;a href=&quot;https://huggingface.co/facebook/convnext-tiny-224&quot;&gt;convnext-tiny-224&lt;/a&gt; variant. Who doesn’t love a small and performant model?&lt;/p&gt;
+
+&lt;p&gt;Grabbing the model is as easy as: &lt;label for=&quot;three&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;three&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;God I love how streamlined some of this is these days. &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;feature_extractor&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ConvNextFeatureExtractor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;from_pretrained&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;facebook/convnext-tiny-224&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;model&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ConvNextForImageClassification&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;from_pretrained&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;facebook/convnext-tiny-224&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;If we go dig around in the guts of it, we can see that replacing the head is as easy as setting &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;classifier&lt;/code&gt; on the model.&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ConvNextForImageClassification&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ConvNextPreTrainedModel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;nb&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_labels&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_labels&lt;/span&gt;
+        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;convnext&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ConvNextModel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# Classifier head
+&lt;/span&gt;        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;classifier&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;nn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Linear&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hidden_sizes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_labels&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_labels&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Identity&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# Initialize weights and apply final processing
+&lt;/span&gt;        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;post_init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Cool, so freeze everything, replace the classifier, and you’re off to the races? Nope, unfortunatley nothing is ever that easy and Ignite wants your model to return Tensors and the HuggingFace model returns a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ImageClassifierOutputWithNoAttention&lt;/code&gt; object &lt;label for=&quot;four&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;four&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Or optionally a tuple, but that doesn’t actually help at all for the most part. &lt;/span&gt;
+My first thought was to just set a custom train step and grab the logits there, something like:
+&lt;label for=&quot;one&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;one&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;Another thought is whether you actually want the model in train mode. Should you update layer norms etc. when transfer learning? &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;train_step&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;trainer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;batch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;optimizer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;zero_grad&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;batch&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;device&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;device&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# Get a tensor from the return dict
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;y_pred&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;logits&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;loss&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;loss_fn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y_pred&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;loss&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;backward&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;optimizer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;step&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;loss&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;trainer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Engine&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;train_step&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;This works as long as you don’t have any other evaluators or whatever running, which seems fairly unlikely in practice.
+&lt;label for=&quot;five&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;five&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Also we don’t want to be writing vanilla training loops like cavemen. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;In the end&lt;/span&gt;  the cleanest method was to just wrap the model so that it always returns tensors.&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;IgniteConvNext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ConvNextForImageClassification&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;Wrap a HuggingFace ConvNext classifier so that it can be used with Ignite.&quot;&quot;&quot;&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;forward&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;pixel_values&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;torch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;FloatTensor&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;labels&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Optional&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;torch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;LongTensor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;output_hidden_states&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Optional&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;bool&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;return_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Optional&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;bool&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;torch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Tensor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;forward&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pixel_values&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;labels&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;output_hidden_states&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;return_dict&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;This has the other advantage of keeping all the nice saving/loading whatver else you get from the HuggingFace model.&lt;/p&gt;
+
+&lt;p&gt;If we’re careful setting things up, we can even keep our config matching the model:&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Grab the dataset first so we know our classes. Should have separate folders for each class
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dataset&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ImageFolder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dataset_folder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Grab the pretrained model from Huggingface
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;model&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;IgniteConvNext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;from_pretrained&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pretrained_model_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Swap out the classifier
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;classifier&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Linear&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hidden_sizes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dataset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;classes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# Update the config
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;label2id&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dataset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;class_to_idx&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;id2label&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;k&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dataset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;class_to_idx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;items&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()}&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_labels&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dataset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;classes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Then freeze the model:&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Freeze all the parameters
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;param&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;parameters&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;param&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;requires_grad&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# Make sure the classifier part is set to have gradients
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;classifier&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;requires_grad&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Don’t forget to only add the classifier parameters to your optimizer&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;optimizer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;AdamW&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;classifier&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;parameters&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;A really nice part of using HuggingFace is we can also get the feature extractor nice and easy, and then setup of vanilla torch transforms correctly:&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# The model comes with an associated feature extractor so grab the transform params from it
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;feature_extractor&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ConvNextFeatureExtractor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;from_pretrained&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pretrained_model_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;dataset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;transform&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Compose&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;AutoAugment&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;AutoAugmentPolicy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;IMAGENET&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PILToTensor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ConvertImageDtype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;torch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# Note these are grabbed from the feature_extractor
+&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Normalize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;feature_extractor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;image_mean&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;feature_extractor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;image_std&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Resize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;feature_extractor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;feature_extractor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)),&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;With that you should be off to the races. From my experiments ConvNext does seem to give a performance bump and I like how efficient the smaller versions are. 
+&lt;label for=&quot;six&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;six&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;It’s also nice getting a working model in 10 minutes on your local machine. &lt;/span&gt;
+Probably going to be using this a lot more in the future.&lt;/p&gt;
+
+&lt;h2 id=&quot;full-example&quot;&gt;Full Example&lt;/h2&gt;
+
+&lt;script src=&quot;https://gist.github.com/dylanv/9b98410ec9cf41f61c4d1ad6baee8822.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Sat, 18 Jun 2022 16:00:00 +0000</pubDate>
+        <link>dylanv.github.io/articles/22/ConvNext-transfer</link>
+        <guid isPermaLink="true">dylanv.github.io/articles/22/ConvNext-transfer</guid>
+        
+        
+        <category>ML</category>
+        
+      </item>
+    
+      <item>
+        <title>A 2022 Guide to Installing Emacs on Windows</title>
+        <description>&lt;!--more--&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;I have spent&lt;/span&gt;  the last few years running Linux, but I got tired of fighting Nvidia drivers and weird GUI bugs. So I’ve made the switch to Windows 11&lt;label for=&quot;one&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;one&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;An encrypted disk issue ended in me losing my entire drive and rage installing windows. Also, now I can play Elden Ring. &lt;/span&gt; which has let me try out some new, different, and exciting GUI bugs and Nvidia fights.&lt;/p&gt;
+
+&lt;h2 id=&quot;wsl&quot;&gt;WSL&lt;/h2&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;If you’re&lt;/span&gt;  in the Windows Insider Program, then the obvious choice is to run emacs in WSL. You can get the GUI version going by using &lt;a href=&quot;https://github.com/microsoft/wslg&quot;&gt;WSLg&lt;/a&gt; and this lets you leave all your configs alone and not have to do the dance of getting all the various bash utils and what not running on windows.&lt;/p&gt;
+
+&lt;p&gt;The downside is that you have have to fiddle about with your files in wsl (not a huge deal) and it won’t behave as nicely as a native window.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;dylanv.github.io/assets/emacs-install/wslg-gui.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Not only is the window border ugly, but it also doesn&amp;#8217;t play nice with window snapping which is a dealbreaker for me.&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;There are alternative window forwarding options for wsl but I decided to go native. How hard can it be?&lt;/p&gt;
+
+&lt;h2 id=&quot;native&quot;&gt;Native&lt;/h2&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;After deciding&lt;/span&gt;  to run emacs on Windows&lt;label for=&quot;two&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;two&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;I’m on some sort of FOSS hitlist now, aren’t I? &lt;/span&gt; I tried out a most of the commonly recommended options before settling on using &lt;a href=&quot;https://www.msys2.org/&quot;&gt;msys2&lt;/a&gt;. There are pros and cons to all the options but this approach had the advantage of not having to install a bunch of seperate programs to get everything working.&lt;/p&gt;
+
+&lt;p&gt;To start, follow the &lt;a href=&quot;https://www.msys2.org/#installation&quot;&gt;msys2 installation guide&lt;/a&gt;. After you’ve done that you should have access to the msys shell&lt;label for=&quot;three&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;three&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Because windows obviously didn’t have enough shells already. &lt;/span&gt;. The nice thing is everything we do is in here from now on and you can use it to keep everything up to date from now on. Fun fact, msys2 uses the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pacman&lt;/code&gt; package manager from Arch; so now you can tell people: “I use Arch, btw”&lt;label for=&quot;four&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;four&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;I am not liable for any physical harm that befalls you if you do this. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Next up we want to install the &lt;a href=&quot;https://packages.msys2.org/package/mingw-w64-x86_64-emacs?repo=mingw64&quot;&gt;mingw-w64-x86_64-emacs package&lt;/a&gt;, the command will be something like&lt;/p&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pacman &lt;span class=&quot;nt&quot;&gt;-S&lt;/span&gt; mingw-w64-x86_64-emacs
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;this will get you emacs itself. The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.emacs.d&lt;/code&gt; folder ends up at &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;c:/Users/&amp;lt;YOU&amp;gt;/AppData/Roaming&lt;/code&gt;. The emacs install itself will be at &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C:/msys64/mingw64/bin/emacs.exe&lt;/code&gt; if you want to make a shortcut to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;runemacs&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you’re the type to symlink your config you can use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mklink&lt;/code&gt; command in the old school windows terminal (not powershell &lt;label for=&quot;five&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;five&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Not confusing at all having all these terminals. &lt;/span&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;But you’re not out the woods yet&lt;/span&gt; , emacs is gonna be missing a bunch of bash utils and other Linux-y goodness that it’s expecting to find and won’t be able to.&lt;/p&gt;
+
+&lt;p&gt;First up, make sure that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C:\msys64\mingw64\bin&lt;/code&gt; is added to your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PATH&lt;/code&gt; env variable.&lt;/p&gt;
+
+&lt;p&gt;Then use msys to install &lt;a href=&quot;https://packages.msys2.org/package/mingw-w64-x86_64-binutils?repo=mingw64&quot;&gt;binutils&lt;/a&gt;, this will fix the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;critical error cannot find &quot;as&quot;&lt;/code&gt; from showing up all the time.&lt;/p&gt;
+
+&lt;h3 id=&quot;spacemacs-specific-stuff&quot;&gt;Spacemacs Specific Stuff&lt;/h3&gt;
+
+&lt;p&gt;Depending on your setup you might not need most of this, I’m running Spacemacs and these were the main things I needed to setup to get things running smoothly&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Hunspell or Ispell&lt;/span&gt;  spell checking won’t working out the box. Install &lt;a href=&quot;https://packages.msys2.org/package/mingw-w64-x86_64-hunspell&quot;&gt;hunspell&lt;/a&gt; and &lt;a href=&quot;https://packages.msys2.org/package/mingw-w64-x86_64-hunspell-en?repo=mingw64&quot;&gt;hunspell-en&lt;/a&gt; and add something like the following to your config:&lt;/p&gt;
+&lt;div class=&quot;language-elisp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;ispell-program-name&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;C:/msys64/mingw64/bin/hunspell.exe&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;setenv&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;LANG&quot;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;en_GB&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;with-eval-after-load&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;ispell&quot;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;ispell-really-hunspell&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;ispell-local-dictionary&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;en_GB&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;I use Org-download&lt;/span&gt;  to insert screenshots&lt;label for=&quot;six&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;six&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;The windows screenshot on SUPER-Shift-S is actually super great. &lt;/span&gt; and images. It won’t work with out Imagemagick, so &lt;a href=&quot;https://packages.msys2.org/package/mingw-w64-x86_64-imagemagick&quot;&gt;install&lt;/a&gt; that and let your config know where the binary is (note the second line if you have Imagemagick already installed another way):&lt;/p&gt;
+&lt;div class=&quot;language-elisp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;org-download-screenshot-method&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;C:/msys64/mingw64/bin/convert.exe clipboard: %s&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;;; (setq org-download-screenshot-method &quot;\&quot;c:/Program Files/ImageMagick-7.1.0-Q16-HDRI/convert.exe\&quot; clipboard: %s&quot;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Diff&lt;/span&gt;  is the last missing piece, grab &lt;a href=&quot;https://packages.msys2.org/package/diffutils?repo=msys&amp;amp;variant=x86_64&quot;&gt;diffutils&lt;/a&gt; and you should be good to go (assuming you have git installed).&lt;/p&gt;
+
+&lt;h2 id=&quot;bonus-native-installation-on-m1-macs&quot;&gt;Bonus: Native Installation on M1 Macs&lt;/h2&gt;
+
+&lt;p&gt;Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;brew&lt;/code&gt; and the &lt;a href=&quot;https://github.com/railwaycat/homebrew-emacsmacport&quot;&gt;railwaycat&lt;/a&gt; version of emacsmacport.&lt;/p&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;brew tap railwaycat/emacsmacport
+brew &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;emacs-mac
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Sat, 16 Apr 2022 16:00:00 +0000</pubDate>
+        <link>dylanv.github.io/articles/22/emacs-windows-install</link>
+        <guid isPermaLink="true">dylanv.github.io/articles/22/emacs-windows-install</guid>
+        
+        
+        <category>emacs</category>
+        
+      </item>
+    
+      <item>
+        <title>Getting Started</title>
+        <description>&lt;!--more--&gt;
+&lt;div class=&quot;epigraph&quot;&gt;&lt;blockquote&gt;&lt;p&gt;Writing about something, even something you know well, usually shows you that you didn’t know it as well as you thought. Putting ideas into words is a severe test. The first words you choose are usually wrong; you have to rewrite sentences over and over to get them exactly right. And your ideas won’t just be imprecise, but incomplete too. Half the ideas that end up in an essay will be ones you thought of while you were writing it. Indeed, that’s why I write them.&lt;/p&gt;&lt;footer&gt;Paul Graham, &lt;cite&gt; &quot;Putting Ideas into Words&quot; &lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;This is not my first attempt&lt;/span&gt;  at blogging, I have a bad habit of setting these up and then nuking them after a while because I’m not happy with the look and feel (my graphic design skills leave a lot to be desired). Which is a pity, I think expressing yourself is a genuinely useful skill and they only way to get better at anything is to practice. However,  due to my natural engineer aversion to writing, I have let this languish.&lt;/p&gt;
+
+&lt;p&gt;This time I’ve decided to put the effort in and get a setup I actually like &lt;label for=&quot;one&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;one&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Sidenotes!!! &lt;/span&gt; (more on this in a moment). I’m fairly happy with the current look and feel it’s got all the bells and whistles like pretentious epigraphs and my beloved sidenotes. &lt;label for=&quot;one&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;one&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;Fighting the urge to change things to use a &lt;a href=&quot;https://en.wikipedia.org/wiki/Historiated_initial&quot;&gt;historiated initial&lt;/a&gt; at the start of every post, like this is an illuminated manuscript and not a blog. &lt;/span&gt;There isn’t actually much that’s missing, but I’m sure I’ll find someway to tinker.&lt;/p&gt;
+
+&lt;h2 id=&quot;nuts-and-bolts&quot;&gt;Nuts and Bolts&lt;/h2&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;The theme&lt;/span&gt;  is based on &lt;a href=&quot;https://github.com/clayh53/tufte-jekyll&quot;&gt;clayh53/tufte-jekyll&lt;/a&gt; which is itself based on Edward Tufte’s &lt;a href=&quot;https://github.com/edwardtufte/tufte-css&quot;&gt;tufte-css&lt;/a&gt;. It has some great liquid tags for setting up side/margin notes, epigraphs, and various other stylish and useful bits and pieces already built in.&lt;/p&gt;
+
+&lt;p&gt;I did make some changes, most obvious is the colours. I’ve always loved the Financial Times colour scheme &lt;label for=&quot;two&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;two&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;The actual physical newspaper was also &lt;a href=&quot;https://qz.com/462285/why-the-financial-times-is-pink/&quot;&gt;pink&lt;/a&gt; for interesting reasons. &lt;/span&gt; and decided to use it here as well. Besides, how often do you get the chance to use a pink background?&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Installation&lt;/span&gt;  was relatively straightforward. I just followed the official Github Pages getting started guide and poked around a bit in the Jekyll docs. Once you’re relatively on top of what Jekyll is all about download/clone/whatever the &lt;a href=&quot;https://github.com/clayh53/tufte-jekyll&quot;&gt;theme&lt;/a&gt; and move all the files into your repo.  You’ll have to change the configs (pay attention to your base url especially) to match your site and do any style/template changes, and you should be off to the races. If you do change your background make sure you look at the code style background as well.&lt;/p&gt;
+
+&lt;p&gt;I did have to delete the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Gemfile.lock&lt;/code&gt; &lt;label for=&quot;three&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;three&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;This may have been a Windows problem (it normally is). &lt;/span&gt; and add some gems to get things working correctly. You can then use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle exec jekyll serve -w&lt;/code&gt; to run and test locally.&lt;/p&gt;
+
+&lt;h3 id=&quot;gotchas&quot;&gt;Gotchas&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;The aforementioned&lt;/span&gt;  gemfile issue was solved by modifying it to:&lt;/p&gt;
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;https://rubygems.org&apos;&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;jekyll&apos;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;rouge&apos;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;webrick&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;~&amp;gt; 1.7&quot;&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# Windows needs tzinfo for some reason&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;tzinfo&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;~&amp;gt; 2.0&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;tzinfo-data&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;~&amp;gt; 1.2022&quot;&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# jekyll serve asked for this&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;wdm&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;&amp;gt;= 0.1.0&apos;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Gem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;win_platform?&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;and then deleting the lock file and re-running &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle install&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Deploying&lt;/span&gt;  is also a bit tricky because Github Pages doesn’t support the Liquid tags and plugins. To get around this create a new empty branch &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gh-pages&lt;/code&gt; and move the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_site&lt;/code&gt; folder there and commit when you want to deploy. There is a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rake&lt;/code&gt; file included with the theme that will do this for you, but it is a bit dangerous.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Otherwise&lt;/span&gt;  check out the list of &lt;a href=&quot;https://clayh53.github.io/tufte-jekyll/articles/20/Edge-Cases&quot;&gt;edge cases&lt;/a&gt; and pay special attention to the quote marks you use in the liquid tags.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 03 Apr 2022 16:00:00 +0000</pubDate>
+        <link>dylanv.github.io/articles/22/about-the-blog</link>
+        <guid isPermaLink="true">dylanv.github.io/articles/22/about-the-blog</guid>
+        
+        
+        <category>general</category>
+        
+      </item>
+    
+  </channel>
+</rss>

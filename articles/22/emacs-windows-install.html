@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A 2022 Guide to Installing Emacs on Windows</title>
+  <meta name="description" content="">
+
+  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+  
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+  
+  
+<!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: [
+      "MathMenu.js",
+      "MathZoom.js",
+      "AssistiveMML.js",
+      "a11y/accessibility-menu.js"
+    ],
+    jax: ["input/TeX", "output/CommonHTML"],
+    TeX: {
+      extensions: [
+        "AMSmath.js",
+        "AMSsymbols.js",
+        "noErrors.js",
+        "noUndefined.js",
+      ]
+    }
+  });
+</script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>  
+
+
+  <link rel="stylesheet" type="text/css" href="dylanv.github.io/css/tufte.css">
+  <!-- <link rel="stylesheet" type="text/css" href="dylanv.github.io/css/print.css" media="print"> -->
+
+  <link rel="canonical" href="dylanv.github.io/articles/22/emacs-windows-install">
+
+  <link rel="alternate" type="application/rss+xml" title="Dylan's Blog" href="dylanv.github.io/feed.xml" />
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧙</text></svg>">
+</head>
+
+  <body>
+    <!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+	<a href="dylanv.github.io/"><img class="badge" src="dylanv.github.io/assets/img/badge.png" alt="CH"></a>
+	
+		
+  	
+		
+		    
+		      <a href="dylanv.github.io/">posts</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="dylanv.github.io/about/">About</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="dylanv.github.io/css/print.css"></a>
+		    
+	    
+  	
+		
+  	
+	</nav>
+</header>
+    <article class="group">
+      <h1>A 2022 Guide to Installing Emacs on Windows</h1>
+<p class="subtitle">April 16, 2022</p>
+
+<!--more-->
+<p><span class="newthought">I have spent</span>  the last few years running Linux, but I got tired of fighting Nvidia drivers and weird GUI bugs. So I’ve made the switch to Windows 11<label for="one" class="margin-toggle sidenote-number"></label><input type="checkbox" id="one" class="margin-toggle" /><span class="sidenote">An encrypted disk issue ended in me losing my entire drive and rage installing windows. Also, now I can play Elden Ring. </span> which has let me try out some new, different, and exciting GUI bugs and Nvidia fights.</p>
+
+<h2 id="wsl">WSL</h2>
+
+<p><span class="newthought">If you’re</span>  in the Windows Insider Program, then the obvious choice is to run emacs in WSL. You can get the GUI version going by using <a href="https://github.com/microsoft/wslg">WSLg</a> and this lets you leave all your configs alone and not have to do the dance of getting all the various bash utils and what not running on windows.</p>
+
+<p>The downside is that you have have to fiddle about with your files in wsl (not a huge deal) and it won’t behave as nicely as a native window.</p>
+<figure><img src="dylanv.github.io/assets/emacs-install/wslg-gui.png" /><figcaption class="maincolumn-figure">Not only is the window border ugly, but it also doesn&#8217;t play nice with window snapping which is a dealbreaker for me.</figcaption></figure>
+<p>There are alternative window forwarding options for wsl but I decided to go native. How hard can it be?</p>
+
+<h2 id="native">Native</h2>
+<p><span class="newthought">After deciding</span>  to run emacs on Windows<label for="two" class="margin-toggle sidenote-number"></label><input type="checkbox" id="two" class="margin-toggle" /><span class="sidenote">I’m on some sort of FOSS hitlist now, aren’t I? </span> I tried out a most of the commonly recommended options before settling on using <a href="https://www.msys2.org/">msys2</a>. There are pros and cons to all the options but this approach had the advantage of not having to install a bunch of seperate programs to get everything working.</p>
+
+<p>To start, follow the <a href="https://www.msys2.org/#installation">msys2 installation guide</a>. After you’ve done that you should have access to the msys shell<label for="three" class="margin-toggle sidenote-number"></label><input type="checkbox" id="three" class="margin-toggle" /><span class="sidenote">Because windows obviously didn’t have enough shells already. </span>. The nice thing is everything we do is in here from now on and you can use it to keep everything up to date from now on. Fun fact, msys2 uses the <code class="language-plaintext highlighter-rouge">pacman</code> package manager from Arch; so now you can tell people: “I use Arch, btw”<label for="four" class="margin-toggle sidenote-number"></label><input type="checkbox" id="four" class="margin-toggle" /><span class="sidenote">I am not liable for any physical harm that befalls you if you do this. </span></p>
+
+<p>Next up we want to install the <a href="https://packages.msys2.org/package/mingw-w64-x86_64-emacs?repo=mingw64">mingw-w64-x86_64-emacs package</a>, the command will be something like</p>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pacman <span class="nt">-S</span> mingw-w64-x86_64-emacs
+</code></pre></div></div>
+<p>this will get you emacs itself. The <code class="language-plaintext highlighter-rouge">.emacs.d</code> folder ends up at <code class="language-plaintext highlighter-rouge">c:/Users/&lt;YOU&gt;/AppData/Roaming</code>. The emacs install itself will be at <code class="language-plaintext highlighter-rouge">C:/msys64/mingw64/bin/emacs.exe</code> if you want to make a shortcut to <code class="language-plaintext highlighter-rouge">runemacs</code>.</p>
+
+<p>If you’re the type to symlink your config you can use the <code class="language-plaintext highlighter-rouge">mklink</code> command in the old school windows terminal (not powershell <label for="five" class="margin-toggle sidenote-number"></label><input type="checkbox" id="five" class="margin-toggle" /><span class="sidenote">Not confusing at all having all these terminals. </span>)</p>
+
+<p><span class="newthought">But you’re not out the woods yet</span> , emacs is gonna be missing a bunch of bash utils and other Linux-y goodness that it’s expecting to find and won’t be able to.</p>
+
+<p>First up, make sure that <code class="language-plaintext highlighter-rouge">C:\msys64\mingw64\bin</code> is added to your <code class="language-plaintext highlighter-rouge">PATH</code> env variable.</p>
+
+<p>Then use msys to install <a href="https://packages.msys2.org/package/mingw-w64-x86_64-binutils?repo=mingw64">binutils</a>, this will fix the <code class="language-plaintext highlighter-rouge">critical error cannot find "as"</code> from showing up all the time.</p>
+
+<h3 id="spacemacs-specific-stuff">Spacemacs Specific Stuff</h3>
+
+<p>Depending on your setup you might not need most of this, I’m running Spacemacs and these were the main things I needed to setup to get things running smoothly</p>
+
+<p><span class="newthought">Hunspell or Ispell</span>  spell checking won’t working out the box. Install <a href="https://packages.msys2.org/package/mingw-w64-x86_64-hunspell">hunspell</a> and <a href="https://packages.msys2.org/package/mingw-w64-x86_64-hunspell-en?repo=mingw64">hunspell-en</a> and add something like the following to your config:</p>
+<div class="language-elisp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="k">setq</span> <span class="nv">ispell-program-name</span> <span class="s">"C:/msys64/mingw64/bin/hunspell.exe"</span><span class="p">)</span>
+<span class="p">(</span><span class="nv">setenv</span> <span class="s">"LANG"</span> <span class="s">"en_GB"</span><span class="p">)</span>
+<span class="p">(</span><span class="nv">with-eval-after-load</span> <span class="s">"ispell"</span>
+<span class="p">(</span><span class="k">setq</span> <span class="nv">ispell-really-hunspell</span> <span class="no">t</span><span class="p">)</span>
+<span class="p">(</span><span class="k">setq</span> <span class="nv">ispell-local-dictionary</span> <span class="s">"en_GB"</span><span class="p">))</span>
+<span class="err">)</span>
+</code></pre></div></div>
+<p><span class="newthought">I use Org-download</span>  to insert screenshots<label for="six" class="margin-toggle sidenote-number"></label><input type="checkbox" id="six" class="margin-toggle" /><span class="sidenote">The windows screenshot on SUPER-Shift-S is actually super great. </span> and images. It won’t work with out Imagemagick, so <a href="https://packages.msys2.org/package/mingw-w64-x86_64-imagemagick">install</a> that and let your config know where the binary is (note the second line if you have Imagemagick already installed another way):</p>
+<div class="language-elisp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="k">setq</span> <span class="nv">org-download-screenshot-method</span> <span class="s">"C:/msys64/mingw64/bin/convert.exe clipboard: %s"</span><span class="p">)</span>
+<span class="c1">;; (setq org-download-screenshot-method "\"c:/Program Files/ImageMagick-7.1.0-Q16-HDRI/convert.exe\" clipboard: %s")</span>
+</code></pre></div></div>
+
+<p><span class="newthought">Diff</span>  is the last missing piece, grab <a href="https://packages.msys2.org/package/diffutils?repo=msys&amp;variant=x86_64">diffutils</a> and you should be good to go (assuming you have git installed).</p>
+
+<h2 id="bonus-native-installation-on-m1-macs">Bonus: Native Installation on M1 Macs</h2>
+
+<p>Use <code class="language-plaintext highlighter-rouge">brew</code> and the <a href="https://github.com/railwaycat/homebrew-emacsmacport">railwaycat</a> version of emacsmacport.</p>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew tap railwaycat/emacsmacport
+brew <span class="nb">install </span>emacs-mac
+</code></pre></div></div>
+
+
+
+    </article>
+    <span class="print-footer">A 2022 Guide to Installing Emacs on Windows - April 16, 2022 - Dylan Verrezen</span>
+    <footer>
+  <hr class="slender">
+  <!-- <ul class="footer-links">
+    <li><a href="mailto:hate@spam.net"><span class="icon-mail3"></span></a></li>    
+      
+  </ul> -->
+<div class="credits">
+<span>&copy; 2022 &nbsp;&nbsp;DYLAN VERREZEN</span></br> <br>
+<!-- <span>This site created with the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme for Machine learning, software, and a bit of everything </a> in <a href="//jekyllrb.com">Jekyll</a>.</span>  -->
+</div>  
+</footer>
+  </body>
+</html>
