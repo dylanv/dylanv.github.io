@@ -39,12 +39,12 @@
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>  
 
 
-  <link rel="stylesheet" type="text/css" href="dylanv.github.io/css/tufte.css">
-  <!-- <link rel="stylesheet" type="text/css" href="dylanv.github.io/css/print.css" media="print"> -->
+  <link rel="stylesheet" type="text/css" href="/css/tufte.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/css/print.css" media="print"> -->
 
-  <link rel="canonical" href="dylanv.github.io/articles/22/CLIP-zero-shot">
+  <link rel="canonical" href="/articles/22/CLIP-zero-shot">
 
-  <link rel="alternate" type="application/rss+xml" title="Dylan's Blog" href="dylanv.github.io/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="Dylan's Blog" href="/feed.xml" />
 
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧙</text></svg>">
 </head>
@@ -53,25 +53,25 @@
     <!--- Header and nav template site-wide -->
 <header>
     <nav class="group">
-	<a href="dylanv.github.io/"><img class="badge" src="dylanv.github.io/assets/img/badge.png" alt="CH"></a>
+	<a href="/"><img class="badge" src="/assets/img/badge.png" alt="CH"></a>
 	
 		
   	
 		
 		    
-		      <a href="dylanv.github.io/">posts</a>
+		      <a href="/">posts</a>
 		    
 	    
   	
 		
 		    
-		      <a href="dylanv.github.io/about/">About</a>
+		      <a href="/about/">About</a>
 		    
 	    
   	
 		
 		    
-		      <a href="dylanv.github.io/css/print.css"></a>
+		      <a href="/css/print.css"></a>
 		    
 	    
   	
@@ -88,7 +88,7 @@
 <h1 id="clip">CLIP</h1>
 <p><a href="https://openai.com/blog/clip/">CLIP</a> is a semi-recent <label for="one" class="margin-toggle sidenote-number"></label><input type="checkbox" id="one" class="margin-toggle" /><span class="sidenote">It’s from Jan 2021 so ancient in DL terms </span> model from OpenAI that claims to be really good at zero-shot learning across a wide variety of tasks.</p>
 
-<p><label for="mf-id-1" class="margin-toggle">⊕</label><input type="checkbox" id="mf-id-1" class="margin-toggle" /><span class="marginnote"><img class="fullwidth" src="dylanv.github.io/assets/clip-zero-shot/CLIP-struct_emb.png" /><br />CLIP at training time.</span>
+<p><label for="mf-id-1" class="margin-toggle">⊕</label><input type="checkbox" id="mf-id-1" class="margin-toggle" /><span class="marginnote"><img class="fullwidth" src="/assets/clip-zero-shot/CLIP-struct_emb.png" /><br />CLIP at training time.</span>
 At a high level clip takes in an image and a text prompt and it spits out a similarity between the two. Under the hood it consists of an Image and Text Encoder and it has been trained to essentially learn the embedding such that the dot product of the image and text embedding is the similarity.</p>
 
 <p>The nice thing for us is we don’t have to think about what kind of transformer is used for what encoding.
@@ -104,14 +104,14 @@ Or, alternatively give us the embeddings and let us do as we please.</p>
 This <a href="https://www.kaggle.com/datasets/ujjwalchowdhury/yoga-pose-classification">yoga poses dataset</a> 
 consists of 5 poses with a few hundred images each.</p>
 
-<figure class="fullwidth"><img src="dylanv.github.io/assets/clip-zero-shot/output_5_0.png" /><figcaption>A good variety of of image types very clearly just scraped from the web somewhere.</figcaption></figure>
+<figure class="fullwidth"><img src="/assets/clip-zero-shot/output_5_0.png" /><figcaption>A good variety of of image types very clearly just scraped from the web somewhere.</figcaption></figure>
 
 <p>To start, I tried three different prompt styles: first just the class names with “yoga pose” appended,
 second I cleaned up the class names so that warrior2 become warrior two, and third I google the proper Sanskrit Yoga names and used those.</p>
-<figure class="fullwidth"><img src="dylanv.github.io/assets/clip-zero-shot/output_7_1.png" /><figcaption>Not great. It&#8217;s better than random but not super usable.</figcaption></figure>
+<figure class="fullwidth"><img src="/assets/clip-zero-shot/output_7_1.png" /><figcaption>Not great. It&#8217;s better than random but not super usable.</figcaption></figure>
 <p>CLIP does OK on some poses <label for="two" class="margin-toggle sidenote-number"></label><input type="checkbox" id="two" class="margin-toggle" /><span class="sidenote">Amusingly, does fine with warrior2 even though I was worried the class name was not great. </span> but overall this wasn’t the best first showing. Now, we can jump into so good old-fashioned (hah) prompt engineering but there is one thing to consider first.</p>
 
-<p><label for="mf-id-1" class="margin-toggle">⊕</label><input type="checkbox" id="mf-id-1" class="margin-toggle" /><span class="marginnote"><img class="fullwidth" src="dylanv.github.io/assets/clip-zero-shot/CLIP-struct_test.png" /><br />Note how the test time prompts are constructed.</span>
+<p><label for="mf-id-1" class="margin-toggle">⊕</label><input type="checkbox" id="mf-id-1" class="margin-toggle" /><span class="marginnote"><img class="fullwidth" src="/assets/clip-zero-shot/CLIP-struct_test.png" /><br />Note how the test time prompts are constructed.</span>
 In the
 <a href="ttps://cdn.openai.com/papers/Learning_Transferable_Visual_Models_From_Natural_Language_Supervision.pdf">paper</a>
 OpenAI note that at test time they constructed prompts in the form “a photo of {object}”.
@@ -119,7 +119,7 @@ I was curious if maybe the model had learned this prompt style implicitly so I a
 
 <p>Doing so improved the results a fair amount and the errors are not completely unreasonable. For the most part it seems to do alright, just confuses the standing poses like warrior two, tree and goddess. To be fair to CLIP I would do terribly at classifying yoga poses (especially if you gave be like 20ms per image)</p>
 
-<figure class="fullwidth"><img src="dylanv.github.io/assets/clip-zero-shot/output_9_1.png" /><figcaption>This is better. Still not perfect but definitely closer to what I would expect.</figcaption></figure>
+<figure class="fullwidth"><img src="/assets/clip-zero-shot/output_9_1.png" /><figcaption>This is better. Still not perfect but definitely closer to what I would expect.</figcaption></figure>
 
 <p>It is interesting to note, that despite being trained not to be, CLIP is still pretty sensitive to the prompts 
 <label for="three" class="margin-toggle sidenote-number"></label><input type="checkbox" id="three" class="margin-toggle" /><span class="sidenote">Quick, add prompt engineering to your LinkedIn now to get a head start on the five years of prompt engineering experience required train. </span>
@@ -131,18 +131,18 @@ This
 <a href="https://www.kaggle.com/datasets/puneet6060/intel-image-classification">scene dataset</a>
 is the kind of easy-peasy DL problem that you could probably train something from scratch in an afternoon for. 
 But, the whole point of zero-shot is that we don’t have to do any work at all.</p>
-<figure class="fullwidth"><img src="dylanv.github.io/assets/clip-zero-shot/output_12_0.png" /><figcaption>It&#8217;s the exact kind of thing you&#8217;d expect CLIP to have seen a ton of.</figcaption></figure>
+<figure class="fullwidth"><img src="/assets/clip-zero-shot/output_12_0.png" /><figcaption>It&#8217;s the exact kind of thing you&#8217;d expect CLIP to have seen a ton of.</figcaption></figure>
 
 <p>For this one I also went with 3 different prompt sets: first up just class names, second a photo of classname, and third a photo of classname landscape.</p>
 
-<figure class="fullwidth"><img src="dylanv.github.io/assets/clip-zero-shot/output_14_1.png" /><figcaption>Too easy. Although, I&#8217;d have been disappointing if it did poorly.</figcaption></figure>
+<figure class="fullwidth"><img src="/assets/clip-zero-shot/output_14_1.png" /><figcaption>Too easy. Although, I&#8217;d have been disappointing if it did poorly.</figcaption></figure>
 
 <p>It is interesting that the “a photo of” prompts are better.
 It really does seem like CLIP has some dependence there.
 Otherwise, things look good. 
 If we look at the misclassifications, I’m mostly on CLIP’s side here.</p>
 
-<figure class="fullwidth"><img src="dylanv.github.io/assets/clip-zero-shot/output_16_0.png" /><figcaption>File this under paranoia about dataset quality.</figcaption></figure>
+<figure class="fullwidth"><img src="/assets/clip-zero-shot/output_16_0.png" /><figcaption>File this under paranoia about dataset quality.</figcaption></figure>
 
 <p>It is pretty cool that you can get 90+ accuracy in a task having done precisely zero work.</p>
 
@@ -151,22 +151,22 @@ If we look at the misclassifications, I’m mostly on CLIP’s side here.</p>
 <p>Lastly, I had a look at this <a href="https://www.kaggle.com/datasets/moltean/fruits">fruits dataset</a>,
 it looks like undergrad project or something but the OpenAI blog post does make some banana related claims.</p>
 
-<figure><img src="dylanv.github.io/assets/clip-zero-shot/CLIP-banana.png" /><figcaption class="maincolumn-figure">We&#8217;ll see about this&#8230;</figcaption></figure>
+<figure><img src="/assets/clip-zero-shot/CLIP-banana.png" /><figcaption class="maincolumn-figure">We&#8217;ll see about this&#8230;</figcaption></figure>
 
 <p>Also this is something I could see popping up, where you get a small collection of product/industrial images and need to bang out a quick classifier.</p>
 
-<figure class="fullwidth"><img src="dylanv.github.io/assets/clip-zero-shot/output_19_0.png" /><figcaption>A nice collection of indeterminate coloured circles. How well would you do?</figcaption></figure>
+<figure class="fullwidth"><img src="/assets/clip-zero-shot/output_19_0.png" /><figcaption>A nice collection of indeterminate coloured circles. How well would you do?</figcaption></figure>
 
 <p>Some of these are pretty tricky, I’m not sure how well I would do, stuff like apple hit vs apple rotten is maybe a bit unfair. 
 Also that pear is pretty rotten as well. Anyway,</p>
 
-<figure><img src="dylanv.github.io/assets/clip-zero-shot/output_21_0.png" /><figcaption class="maincolumn-figure">Ignore the top-left apple corner of shame. Also pretty sure &#8216;delicios&#8217; is spelt wrong there. Don&#8217;t pretend you&#8217;ve never had to deal with data like this.</figcaption></figure>
+<figure><img src="/assets/clip-zero-shot/output_21_0.png" /><figcaption class="maincolumn-figure">Ignore the top-left apple corner of shame. Also pretty sure &#8216;delicios&#8217; is spelt wrong there. Don&#8217;t pretend you&#8217;ve never had to deal with data like this.</figcaption></figure>
 
 <p>Yeah, that’s not too bad all things considered. Complete chaos in the apple quadrant and some cucumber/zucchini, golden apple/pear mixups but that’s not unreasonable.</p>
 
 <p>It was at this point I realised I had left the prompts as “a photo of classname” which meant this was with the “apple_braeburn” style class names with the underscores still.</p>
 
-<figure><img src="dylanv.github.io/assets/clip-zero-shot/output_21_1.png" /><figcaption class="maincolumn-figure">Yeah, I dunno. Why&#8217;s it worse with better prompts?</figcaption></figure>
+<figure><img src="/assets/clip-zero-shot/output_21_1.png" /><figcaption class="maincolumn-figure">Yeah, I dunno. Why&#8217;s it worse with better prompts?</figcaption></figure>
 
 <p>Fixing that somehow that made things worse though, so buyer beware.</p>
 

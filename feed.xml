@@ -3,10 +3,10 @@
   <channel>
     <title>Dylan&apos;s Blog</title>
     <description>Machine learning, software, and a bit of everything</description>
-    <link>dylanv.github.io/</link>
-    <atom:link href="dylanv.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 03 Jul 2022 16:07:23 +0000</pubDate>
-    <lastBuildDate>Sun, 03 Jul 2022 16:07:23 +0000</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 04 Jul 2022 16:20:05 +0000</pubDate>
+    <lastBuildDate>Mon, 04 Jul 2022 16:20:05 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -107,8 +107,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 03 Jul 2022 16:00:00 +0000</pubDate>
-        <link>dylanv.github.io/articles/22/digset</link>
-        <guid isPermaLink="true">dylanv.github.io/articles/22/digset</guid>
+        <link>/articles/22/digset</link>
+        <guid isPermaLink="true">/articles/22/digset</guid>
         
         
         <category>digest</category>
@@ -119,7 +119,7 @@
         <title>Week 25 Digest - Pixel Art Edition</title>
         <description>&lt;!--more--&gt;
 
-&lt;figure&gt;&lt;img src=&quot;dylanv.github.io/assets/digest/pixray-ct1.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;pixray draws a Cape Town sunset&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img src=&quot;/assets/digest/pixray-ct1.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;pixray draws a Cape Town sunset&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;h2 id=&quot;how-attention-works-in-transformers&quot;&gt;How attention works in transformers&lt;/h2&gt;
 
 &lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;(in case you never realized) &lt;a href=&quot;https://t.co/XvNtUwTOFP&quot;&gt;pic.twitter.com/XvNtUwTOFP&lt;/a&gt;&lt;/p&gt;&amp;mdash; François Fleuret (@francoisfleuret) &lt;a href=&quot;https://twitter.com/francoisfleuret/status/1539622884766896128?ref_src=twsrc%5Etfw&quot;&gt;June 22, 2022&lt;/a&gt;&lt;/blockquote&gt;
@@ -129,7 +129,7 @@
 &lt;h2 id=&quot;pixray-generate-ai-pixel-art&quot;&gt;&lt;a href=&quot;https://github.com/pixray/pixray&quot;&gt;pixray: Generate AI pixel art&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Easy enought to get running locally if you’re bored of Dalle-mini already. I tried a few Cape Town related prompts and
 it did okay.&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&quot;dylanv.github.io/assets/digest/pixray-ct2.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;pixray draws Cape Town&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img src=&quot;/assets/digest/pixray-ct2.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;pixray draws Cape Town&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;h2 id=&quot;meta-releases-new-large-language-model&quot;&gt;Meta releases new large language model&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://arxiv.org/abs/2205.01068&quot;&gt;{2205.01068} OPT: Open Pre-trained Transformer Language Models&lt;/a&gt;&lt;/p&gt;
@@ -171,8 +171,8 @@ Turns out they block really small and really large particles equally well with a
 &lt;p&gt;Available as &lt;a href=&quot;https://www.statsmodels.org/devel/examples/notebooks/generated/ordinal_regression.html&quot;&gt;ordinal regression&lt;/a&gt; in statsmodels.&lt;/p&gt;
 </description>
         <pubDate>Sun, 26 Jun 2022 16:00:00 +0000</pubDate>
-        <link>dylanv.github.io/articles/22/digest</link>
-        <guid isPermaLink="true">dylanv.github.io/articles/22/digest</guid>
+        <link>/articles/22/digest</link>
+        <guid isPermaLink="true">/articles/22/digest</guid>
         
         
         <category>digest</category>
@@ -186,7 +186,7 @@ Turns out they block really small and really large particles equally well with a
 &lt;h1 id=&quot;clip&quot;&gt;CLIP&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&quot;https://openai.com/blog/clip/&quot;&gt;CLIP&lt;/a&gt; is a semi-recent &lt;label for=&quot;one&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;one&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;It’s from Jan 2021 so ancient in DL terms &lt;/span&gt; model from OpenAI that claims to be really good at zero-shot learning across a wide variety of tasks.&lt;/p&gt;
 
-&lt;p&gt;&lt;label for=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;dylanv.github.io/assets/clip-zero-shot/CLIP-struct_emb.png&quot; /&gt;&lt;br /&gt;CLIP at training time.&lt;/span&gt;
+&lt;p&gt;&lt;label for=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/clip-zero-shot/CLIP-struct_emb.png&quot; /&gt;&lt;br /&gt;CLIP at training time.&lt;/span&gt;
 At a high level clip takes in an image and a text prompt and it spits out a similarity between the two. Under the hood it consists of an Image and Text Encoder and it has been trained to essentially learn the embedding such that the dot product of the image and text embedding is the similarity.&lt;/p&gt;
 
 &lt;p&gt;The nice thing for us is we don’t have to think about what kind of transformer is used for what encoding.
@@ -202,14 +202,14 @@ Or, alternatively give us the embeddings and let us do as we please.&lt;/p&gt;
 This &lt;a href=&quot;https://www.kaggle.com/datasets/ujjwalchowdhury/yoga-pose-classification&quot;&gt;yoga poses dataset&lt;/a&gt; 
 consists of 5 poses with a few hundred images each.&lt;/p&gt;
 
-&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;dylanv.github.io/assets/clip-zero-shot/output_5_0.png&quot; /&gt;&lt;figcaption&gt;A good variety of of image types very clearly just scraped from the web somewhere.&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;/assets/clip-zero-shot/output_5_0.png&quot; /&gt;&lt;figcaption&gt;A good variety of of image types very clearly just scraped from the web somewhere.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;To start, I tried three different prompt styles: first just the class names with “yoga pose” appended,
 second I cleaned up the class names so that warrior2 become warrior two, and third I google the proper Sanskrit Yoga names and used those.&lt;/p&gt;
-&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;dylanv.github.io/assets/clip-zero-shot/output_7_1.png&quot; /&gt;&lt;figcaption&gt;Not great. It&amp;#8217;s better than random but not super usable.&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;/assets/clip-zero-shot/output_7_1.png&quot; /&gt;&lt;figcaption&gt;Not great. It&amp;#8217;s better than random but not super usable.&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;CLIP does OK on some poses &lt;label for=&quot;two&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;two&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Amusingly, does fine with warrior2 even though I was worried the class name was not great. &lt;/span&gt; but overall this wasn’t the best first showing. Now, we can jump into so good old-fashioned (hah) prompt engineering but there is one thing to consider first.&lt;/p&gt;
 
-&lt;p&gt;&lt;label for=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;dylanv.github.io/assets/clip-zero-shot/CLIP-struct_test.png&quot; /&gt;&lt;br /&gt;Note how the test time prompts are constructed.&lt;/span&gt;
+&lt;p&gt;&lt;label for=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/clip-zero-shot/CLIP-struct_test.png&quot; /&gt;&lt;br /&gt;Note how the test time prompts are constructed.&lt;/span&gt;
 In the
 &lt;a href=&quot;ttps://cdn.openai.com/papers/Learning_Transferable_Visual_Models_From_Natural_Language_Supervision.pdf&quot;&gt;paper&lt;/a&gt;
 OpenAI note that at test time they constructed prompts in the form “a photo of {object}”.
@@ -217,7 +217,7 @@ I was curious if maybe the model had learned this prompt style implicitly so I a
 
 &lt;p&gt;Doing so improved the results a fair amount and the errors are not completely unreasonable. For the most part it seems to do alright, just confuses the standing poses like warrior two, tree and goddess. To be fair to CLIP I would do terribly at classifying yoga poses (especially if you gave be like 20ms per image)&lt;/p&gt;
 
-&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;dylanv.github.io/assets/clip-zero-shot/output_9_1.png&quot; /&gt;&lt;figcaption&gt;This is better. Still not perfect but definitely closer to what I would expect.&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;/assets/clip-zero-shot/output_9_1.png&quot; /&gt;&lt;figcaption&gt;This is better. Still not perfect but definitely closer to what I would expect.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;It is interesting to note, that despite being trained not to be, CLIP is still pretty sensitive to the prompts 
 &lt;label for=&quot;three&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;three&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Quick, add prompt engineering to your LinkedIn now to get a head start on the five years of prompt engineering experience required train. &lt;/span&gt;
@@ -229,18 +229,18 @@ This
 &lt;a href=&quot;https://www.kaggle.com/datasets/puneet6060/intel-image-classification&quot;&gt;scene dataset&lt;/a&gt;
 is the kind of easy-peasy DL problem that you could probably train something from scratch in an afternoon for. 
 But, the whole point of zero-shot is that we don’t have to do any work at all.&lt;/p&gt;
-&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;dylanv.github.io/assets/clip-zero-shot/output_12_0.png&quot; /&gt;&lt;figcaption&gt;It&amp;#8217;s the exact kind of thing you&amp;#8217;d expect CLIP to have seen a ton of.&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;/assets/clip-zero-shot/output_12_0.png&quot; /&gt;&lt;figcaption&gt;It&amp;#8217;s the exact kind of thing you&amp;#8217;d expect CLIP to have seen a ton of.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;For this one I also went with 3 different prompt sets: first up just class names, second a photo of classname, and third a photo of classname landscape.&lt;/p&gt;
 
-&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;dylanv.github.io/assets/clip-zero-shot/output_14_1.png&quot; /&gt;&lt;figcaption&gt;Too easy. Although, I&amp;#8217;d have been disappointing if it did poorly.&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;/assets/clip-zero-shot/output_14_1.png&quot; /&gt;&lt;figcaption&gt;Too easy. Although, I&amp;#8217;d have been disappointing if it did poorly.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;It is interesting that the “a photo of” prompts are better.
 It really does seem like CLIP has some dependence there.
 Otherwise, things look good. 
 If we look at the misclassifications, I’m mostly on CLIP’s side here.&lt;/p&gt;
 
-&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;dylanv.github.io/assets/clip-zero-shot/output_16_0.png&quot; /&gt;&lt;figcaption&gt;File this under paranoia about dataset quality.&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;/assets/clip-zero-shot/output_16_0.png&quot; /&gt;&lt;figcaption&gt;File this under paranoia about dataset quality.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;It is pretty cool that you can get 90+ accuracy in a task having done precisely zero work.&lt;/p&gt;
 
@@ -249,22 +249,22 @@ If we look at the misclassifications, I’m mostly on CLIP’s side here.&lt;/p&
 &lt;p&gt;Lastly, I had a look at this &lt;a href=&quot;https://www.kaggle.com/datasets/moltean/fruits&quot;&gt;fruits dataset&lt;/a&gt;,
 it looks like undergrad project or something but the OpenAI blog post does make some banana related claims.&lt;/p&gt;
 
-&lt;figure&gt;&lt;img src=&quot;dylanv.github.io/assets/clip-zero-shot/CLIP-banana.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;We&amp;#8217;ll see about this&amp;#8230;&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img src=&quot;/assets/clip-zero-shot/CLIP-banana.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;We&amp;#8217;ll see about this&amp;#8230;&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;Also this is something I could see popping up, where you get a small collection of product/industrial images and need to bang out a quick classifier.&lt;/p&gt;
 
-&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;dylanv.github.io/assets/clip-zero-shot/output_19_0.png&quot; /&gt;&lt;figcaption&gt;A nice collection of indeterminate coloured circles. How well would you do?&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;/assets/clip-zero-shot/output_19_0.png&quot; /&gt;&lt;figcaption&gt;A nice collection of indeterminate coloured circles. How well would you do?&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;Some of these are pretty tricky, I’m not sure how well I would do, stuff like apple hit vs apple rotten is maybe a bit unfair. 
 Also that pear is pretty rotten as well. Anyway,&lt;/p&gt;
 
-&lt;figure&gt;&lt;img src=&quot;dylanv.github.io/assets/clip-zero-shot/output_21_0.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Ignore the top-left apple corner of shame. Also pretty sure &amp;#8216;delicios&amp;#8217; is spelt wrong there. Don&amp;#8217;t pretend you&amp;#8217;ve never had to deal with data like this.&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img src=&quot;/assets/clip-zero-shot/output_21_0.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Ignore the top-left apple corner of shame. Also pretty sure &amp;#8216;delicios&amp;#8217; is spelt wrong there. Don&amp;#8217;t pretend you&amp;#8217;ve never had to deal with data like this.&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;Yeah, that’s not too bad all things considered. Complete chaos in the apple quadrant and some cucumber/zucchini, golden apple/pear mixups but that’s not unreasonable.&lt;/p&gt;
 
 &lt;p&gt;It was at this point I realised I had left the prompts as “a photo of classname” which meant this was with the “apple_braeburn” style class names with the underscores still.&lt;/p&gt;
 
-&lt;figure&gt;&lt;img src=&quot;dylanv.github.io/assets/clip-zero-shot/output_21_1.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Yeah, I dunno. Why&amp;#8217;s it worse with better prompts?&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img src=&quot;/assets/clip-zero-shot/output_21_1.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Yeah, I dunno. Why&amp;#8217;s it worse with better prompts?&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;Fixing that somehow that made things worse though, so buyer beware.&lt;/p&gt;
 
@@ -276,8 +276,8 @@ But I feel like a lot of the time transfer learning a resnet &lt;label for=&quot
 
 </description>
         <pubDate>Fri, 24 Jun 2022 16:00:00 +0000</pubDate>
-        <link>dylanv.github.io/articles/22/CLIP-zero-shot</link>
-        <guid isPermaLink="true">dylanv.github.io/articles/22/CLIP-zero-shot</guid>
+        <link>/articles/22/CLIP-zero-shot</link>
+        <guid isPermaLink="true">/articles/22/CLIP-zero-shot</guid>
         
         
         <category>ML</category>
@@ -296,7 +296,7 @@ A particular standout was the ConvNeXt model  &lt;label for=&quot;one&quot; clas
 
 &lt;p&gt;This led to a reasonably efficient model that seems to work great on a wide variety of tasks. The &lt;a href=&quot;https://github.com/facebookresearch/ConvNeXt&quot;&gt;official repo&lt;/a&gt; is pretty helpful and it’s built into &lt;a href=&quot;https://github.com/rwightman/pytorch-image-models&quot;&gt;timm&lt;/a&gt;.&lt;/p&gt;
 
-&lt;figure&gt;&lt;img src=&quot;dylanv.github.io/assets/convnext/comparison.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Lol (from &lt;a href=&quot;https://twitter.com/giffmana/status/1538617065048788997&quot;&gt;Lucas Beyer on twitter&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img src=&quot;/assets/convnext/comparison.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Lol (from &lt;a href=&quot;https://twitter.com/giffmana/status/1538617065048788997&quot;&gt;Lucas Beyer on twitter&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Lately I’ve been spending&lt;/span&gt;  way too much time messing around with models from &lt;a href=&quot;https://huggingface.co/&quot;&gt;Hugging Face&lt;/a&gt;.
 I’ve always been a big transfer learning fan, get great results quickly with less compute seems like a no-brainer. 
@@ -408,8 +408,8 @@ Probably going to be using this a lot more in the future.&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 18 Jun 2022 16:00:00 +0000</pubDate>
-        <link>dylanv.github.io/articles/22/ConvNext-transfer</link>
-        <guid isPermaLink="true">dylanv.github.io/articles/22/ConvNext-transfer</guid>
+        <link>/articles/22/ConvNext-transfer</link>
+        <guid isPermaLink="true">/articles/22/ConvNext-transfer</guid>
         
         
         <category>ML</category>
@@ -426,7 +426,7 @@ Probably going to be using this a lot more in the future.&lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;If you’re&lt;/span&gt;  in the Windows Insider Program, then the obvious choice is to run emacs in WSL. You can get the GUI version going by using &lt;a href=&quot;https://github.com/microsoft/wslg&quot;&gt;WSLg&lt;/a&gt; and this lets you leave all your configs alone and not have to do the dance of getting all the various bash utils and what not running on windows.&lt;/p&gt;
 
 &lt;p&gt;The downside is that you have have to fiddle about with your files in wsl (not a huge deal) and it won’t behave as nicely as a native window.&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&quot;dylanv.github.io/assets/emacs-install/wslg-gui.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Not only is the window border ugly, but it also doesn&amp;#8217;t play nice with window snapping which is a dealbreaker for me.&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img src=&quot;/assets/emacs-install/wslg-gui.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Not only is the window border ugly, but it also doesn&amp;#8217;t play nice with window snapping which is a dealbreaker for me.&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;There are alternative window forwarding options for wsl but I decided to go native. How hard can it be?&lt;/p&gt;
 
 &lt;h2 id=&quot;native&quot;&gt;Native&lt;/h2&gt;
@@ -474,8 +474,8 @@ brew &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;emacs-mac
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
         <pubDate>Sat, 16 Apr 2022 16:00:00 +0000</pubDate>
-        <link>dylanv.github.io/articles/22/emacs-windows-install</link>
-        <guid isPermaLink="true">dylanv.github.io/articles/22/emacs-windows-install</guid>
+        <link>/articles/22/emacs-windows-install</link>
+        <guid isPermaLink="true">/articles/22/emacs-windows-install</guid>
         
         
         <category>emacs</category>
@@ -520,8 +520,8 @@ brew &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;emacs-mac
 &lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Otherwise&lt;/span&gt;  check out the list of &lt;a href=&quot;https://clayh53.github.io/tufte-jekyll/articles/20/Edge-Cases&quot;&gt;edge cases&lt;/a&gt; and pay special attention to the quote marks you use in the liquid tags.&lt;/p&gt;
 </description>
         <pubDate>Sun, 03 Apr 2022 16:00:00 +0000</pubDate>
-        <link>dylanv.github.io/articles/22/about-the-blog</link>
-        <guid isPermaLink="true">dylanv.github.io/articles/22/about-the-blog</guid>
+        <link>/articles/22/about-the-blog</link>
+        <guid isPermaLink="true">/articles/22/about-the-blog</guid>
         
         
         <category>general</category>
